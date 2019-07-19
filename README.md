@@ -62,10 +62,10 @@ this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.Loc
  
 You also can add description and display service name (optionally).
 
-``cpp
+```cpp
 this.serviceInstaller1.Description = "My First Service demo";  
-this.serviceInstaller1.DisplayName = "MyFirstService.Demo"; 
-``
+this.serviceInstaller1.DisplayName = "MyFirstService.Demo";
+```
 
 ![image010](https://user-images.githubusercontent.com/37344605/61526437-3bd3b280-aa3c-11e9-92d3-b5d8aceb587e.png)
 
