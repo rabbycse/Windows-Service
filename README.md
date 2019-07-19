@@ -61,7 +61,8 @@ Now add the below line:
 this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
  
 You also can add description and display service name (optionally).
-``
+
+``c#
 this.serviceInstaller1.Description = "My First Service demo";  
 this.serviceInstaller1.DisplayName = "MyFirstService.Demo"; 
 ``
